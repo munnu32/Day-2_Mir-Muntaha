@@ -1,0 +1,45 @@
+*{
+  font-family: arial;
+}
+.parent{
+  width: 500px;
+  margin: 120px auto;
+  border: 1px solid #2d132cba;
+  border-radius: 15px;
+  position: relative;
+}
+.bgimage{
+  width: 500px;
+  margin: 120px auto;
+  border: 1px solid #2d132cba;
+  border-radius: 15px;
+  position: relative;
+}
+.banner{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.pimg{
+  border: 3px solid white;
+  border-radius: 100px;
+  position: absolute;
+  top: 100px;
+  right: 65px;
+}
+.name, .desc{
+  text-align: center;
+  }
+.name{
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.desc{
+  color: grey;
+  font-size: 20px;
+  margin-top: 6px;
+  font-weight: 500;
+}
